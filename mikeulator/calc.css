@@ -1,0 +1,41 @@
+.calc {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(5,1fr);
+    border-radius: 5px;
+
+    background-color: blueviolet;
+    justify-content: center;
+    height: 500px;
+    width: 350px;
+}
+
+.disp{
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 2;
+
+
+}
+.buttons{
+    display: grid;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 6;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(4,1fr);
+    height: 400px;
+    width: 350px;
+
+
+
+}
+
+#root {
+    
+    justify-content: center;
+
+
+}
