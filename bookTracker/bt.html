@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+
+<head>
+
+</head>
+<style >
+    #root{
+        height: 900px;
+        background-color: blue;
+        display: flex;
+        justify-content: left ;
+
+    }
+  
+</style>
+<body>
+    <div id="ootroot">
+        <table>
+            <thead>
+                <tr>
+                    <th colspan="3">My Library</th>
+                </tr>
+
+                <tr>
+                    <th id='title'>title</th>
+                    <th id='author'>author</th>
+                    <th id='read'>read</th>
+                    
+                    <th id='del'>del</th>
+                </tr>
+            </thead>
+            <tbody id="book">
+               
+            </tbody>
+        </table>
+
+    
+        <div>
+            <form  id='newBook' >
+                <div >
+                <label >Title: </label>
+                <input id='titleResponse' type="text"  required>
+                </div>
+                <div>
+                <label >Author: </label>
+                <input  type="text"  id='authResponse' required >
+                </div>
+                <div >
+                    <label >Read yet?: </label>
+                    <input type="radio" required>
+                </div>
+                <div >
+                <input type="submit" value="+ Add Book!" id='addBook'>
+                </div>
+            </form>
+        </div>   
+
+    </div>
+
+    <script src="./bt.js"> </script>
+</body>
